@@ -86,11 +86,14 @@
     .lin:hover{
         color: orange
     }
+    .home-container{
+      height: 50vh;
+    }
     .home-image{
-        height: 70vh;
+        height: 50vh;
       }
       .title{
-        padding: 12rem 0 0 1rem;
+        padding: 10rem 0 0 1rem;
       }
       .title-two{
         line-height: 2.5rem;
@@ -106,6 +109,40 @@
       .started{
         margin-top: 0.2rem;
       }
+      .home-image-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: white;
+        width: 20rem;
+        height: 4.5vh;
+        border-radius: 30rem 2rem 0;
+        text-align: center;
+        padding: 0 0 0 2rem;
+        z-index: 1;
+        font-size: 1.5rem;
+      }
+      nav{
+        text-align: center;
+        padding: 1.5rem 2rem 0 2rem;
+      }
+      .input-navbar input{
+        height: 2.5vh;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        width: 18rem;
+        font-size: 0.9rem;
+        outline: green;
+        padding: 0 0 0 1rem;
+    }
+      .login-container{
+        border: 1px solid darkgreen;
+        width: 4rem;
+        text-align: center;
+        padding: 0.25rem 0 0 0;
+        font-size: 0.9rem;
+        height: 2.5vh;
+    }
 }
 
 @media (max-width: 820px) {
