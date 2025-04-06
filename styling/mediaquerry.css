@@ -61,10 +61,14 @@
     }
 }
 
-@media (max-width: 992px) {
+@media ( max-width: 992px) {
     body{
         background-color: blue;
     }
+    .menu-bar-scroll{
+      top: 8rem;
+      border-radius: 10px;
+  }
     nav ul{
         display: none;
     }
@@ -87,13 +91,13 @@
         color: orange
     }
     .home-container{
-      height: 50vh;
+      height: 40vh;
     }
     .home-image{
-        height: 50vh;
+        height: 40vh;
       }
       .title{
-        padding: 10rem 0 0 1rem;
+        padding: 20rem 0 0 0;
       }
       .title-two{
         line-height: 2.5rem;
@@ -104,7 +108,7 @@
         font-size: 0.9rem;
       }
       .title-two h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
       }
       .started{
         margin-top: 0.2rem;
@@ -115,16 +119,16 @@
         right: 0;
         background-color: white;
         width: 20rem;
-        height: 4.5vh;
+        height: 3vh;
         border-radius: 30rem 2rem 0;
         text-align: center;
-        padding: 0 0 0 2rem;
+        padding: 1rem 0 0 2rem;
         z-index: 1;
         font-size: 1.5rem;
       }
       nav{
         text-align: center;
-        padding: 1.5rem 2rem 0 2rem;
+        padding: 3rem 2rem 0 2rem;
       }
       .input-navbar input{
         height: 2.5vh;
@@ -215,10 +219,22 @@
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 432px) {
     body{
         background-color: lightgrey;
     }
+    .layout-container{
+        display: flex;
+        flex-direction: column;
+      nav{
+        text-align: center;
+        padding: 1.3rem 2rem 0 2rem;
+      }
+    }
+    .menu-bar-scroll{
+      top: 5rem;
+      border-radius: 10px;
+  }
     .home-container{
       height: 45vh;
     }
@@ -248,12 +264,20 @@
         right: 0;
         background-color: white;
         width: 10rem;
-        height: 4.5vh;
+        height: 3vh;
         border-radius: 30rem 2rem 0;
         text-align: center;
         padding: 0.6rem 0 0 0.9rem;
         z-index: 1;
+        font-size: 0.9rem;
     }
+    header{
+      nav{
+        text-align: center;
+        padding: 0 2rem 0 2rem;
+      }
+    }
+    
 }
 
 
@@ -262,6 +286,8 @@
     body{
         background-color: yellow;
     }
+    
+    
     .home-container{
       height: 50vh;
     }
@@ -291,11 +317,13 @@
         right: 0;
         background-color: white;
         width: 10rem;
-        height: 5vh;
+        height: 3vh;
         border-radius: 30rem 2rem 0;
         text-align: center;
         padding: 0.6rem 0 0 0.9rem;
         z-index: 1;
+        font-size: 0.8rem;
     }
+    
       
 }
