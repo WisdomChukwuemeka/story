@@ -1,0 +1,63 @@
+.home-container{
+  background-color: black;
+  position: relative;
+  height: 70.4vh;
+}
+.home-image{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 10), rgba(0, 0, 0, 0)), url("../src//background/oldman.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  height: 100%;
+  width: 100%;
+}
+.title{
+  display: flex;
+  justify-content: left;
+  padding: 15rem 0 0 1rem;
+}
+.title-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+}
+.title-two p{
+  width: 35rem;
+  font-size: 1rem;
+}
+
+.started{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.started-container{
+  background-color: green;
+  width: 8rem;
+  border-radius: 10px; 
+  transition: background-color 1s, color 1s;
+}
+.started-container span{
+  margin: 0 0 0 0.6rem;
+}
+.started-container:hover{
+  background-color: darkgreen;
+  color: white;
+}
+
+.home-image-bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  width: 10rem;
+  height: 4.5vh;
+  border-radius: 30rem 2rem 0;
+  text-align: center;
+  padding: 0.5rem 0 0 0;
+  font-size: 0.9rem;
+}

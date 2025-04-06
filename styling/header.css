@@ -1,0 +1,85 @@
+.layout-container{
+    background-color: lightgray;
+    height: 7vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.7rem 2rem 0 2rem;
+    text-align: center;
+    gap: 1rem;
+}
+
+nav h2{
+    font-size: 1.3rem;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+}
+nav span{
+    color: darkred;
+}
+.input-navbar input{
+    height: 4vh;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 18rem;
+    font-size: 0.9rem;
+    outline: green;
+    padding: 0 0 0 1rem;
+}
+.li{
+    width: 4rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.25rem 0 0 0;
+    transition: background-color 1s, color 1s;
+    font-size: 0.9rem;
+    height: 1.5rem;
+}
+.li:hover{
+    background-color: green;
+    color: white;
+}
+.login-container{
+    border: 1px solid darkgreen;
+    width: 4rem;
+    text-align: center;
+    padding: 0.25rem 0 0 0;
+    font-size: 0.9rem;
+    height: 4vh;
+}
+.login-menu{
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: center;
+}
+.menu-icon{
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: none;
+}
+
+.menu-bar-scroll{
+    top: 2.8rem;
+    right: 0;
+    position: absolute;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    backdrop-filter: blur(10%);
+    line-height: 4rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 1rem;
+    display: none;
+    z-index: 2;
+}
+
