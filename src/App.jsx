@@ -1,14 +1,13 @@
 import { Layout } from "../pages/layout"
-import {Home} from "../pages/home"
-
+import {Nav} from "../pages/nav"
 
 
 export const App = () => {
   return(
     <>
       <div>
+        <Nav />
       <Layout />
-      <Home />
       </div>
     </>
   )

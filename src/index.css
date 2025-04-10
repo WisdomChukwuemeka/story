@@ -1,12 +1,98 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-body{
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100vw;
-    height: 100dvh;
+.button{
+    margin: 7rem 0 0 0;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(275px, 100%), 1fr));
+    gap: 1rem;
+    text-align: center;
+    margin: 3rem 0 0 0;
+}
+
+img{
+    max-width: 100%;
+    width: 14rem;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+h4{
+    font-size: clamp(1.8rem, calc(3vw + 0.5rem), 2rem);
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem 0 1rem;
+    align-items: center;
+}
+.search{
+    display: flex;
+}
+.search input{
+    min-width: 100%;
+    width: clamp(19rem, calc(2vw + 5%), 1.5rem);
+}
+.about-section{
+    display: flex;
+    gap: 1.5rem;
+    font-size: clamp(1rem, calc(2vw + 5%), 1.5rem);
+}
+.menubar{
+    font-size: clamp(1.5rem, calc(3vw + 0.5rem), 2rem);
+}
+.menubar:hover{
+    color: #ff0000;
+    transition: 0.8s;
+}
+header{
+    position: relative;
+}
+.menubar:hover{
+    cursor: pointer;
+}
+
+.menu-section{
+    background-color: purple;
+    width: clamp(6rem, calc(2vw + 5%), 1.5rem);
+    position: absolute;
+    top: 4.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 5%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    font-size: clamp(1rem, calc(2vw + 5%), 1.5rem);
+}
+.menu-section p:hover{
+    background-color: #ff0000;
+    transition: 0.8s;
+}
+.menu-section, .menubar{
+    display: none;
+}
+
+
+@media(max-width: 768px){
+    .menu-section, .menubar{
+        display: flex;
+    }
+    .about-section{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "story",
-  "homepage": "https://WisdomChukwuemeka.github.io/story/",
+  "name": "story-line",
+  "homepage": "https://WisdomChukwuemeka.github.io/story-line/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "axios": "^1.8.4",
     "bootstrap-icons": "^1.11.3",
     "flowbite": "^3.1.2",
     "gh-pages": "^6.3.0",
